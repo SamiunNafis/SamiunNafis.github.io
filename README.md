@@ -14,5 +14,5 @@
   <img src="https://img.shields.io/github/issues-pr/SamiunNafis/SamiunNafis.github.io?color=0088ff" />
 </p>
 <p align="center">
-<img src="https://github.com/SamiunNafis/SamiunNafis.github.io/blob/main/images/SamiunNafis_Photo.jfif" width="190"> 
+<img src="https://github.com/SamiunNafis/SamiunNafis.github.io/blob/main/images/SamiunNafis_Photo.png" width="190"> 
 </p>
