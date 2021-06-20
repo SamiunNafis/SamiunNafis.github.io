@@ -1,0 +1,159 @@
+* {
+	font-family:maven;
+	box-sizing:border-box;
+	user-select:none;
+	scroll-behavior: smooth !important;
+}
+
+body {
+	transition:0.4s;
+	background:#fcfcfc;
+}
+
+img {
+	pointer-events:none;
+}
+
+.name {
+/*	color:#212529;*/
+	color:white;
+	box-sizing:border-box;
+	padding:1rem 0.7rem;
+	font-weight:500;
+	font-size:1.3rem;
+	display:flex;
+	justify-content:space-between;
+}
+
+.form-check-label {
+	font-size:1rem;
+	height:100%;
+	display:flex;
+	justify-content:center;
+}
+
+.nav-icon {
+	height:2rem;
+	width:2rem;
+}
+
+.navbar {
+	position:sticky !important;
+	top:0;
+}
+
+h1, h2>span {
+	color:#0078ff;
+	font-weight:742;
+}
+
+.intro .wave {
+	display:inline;
+}
+
+.intro span {
+	display:block;
+}
+
+.about span {
+	display:block;
+}
+
+.about h1 {
+	color:#0078ff;
+}
+
+.about .aimg {
+	height:auto;
+	width:100%;
+	max-width:300px;
+	padding:2rem;
+}
+
+.projects .project {
+	display:flex;
+}
+
+.projects .items {
+	display:flex;
+	flex-direction:column;
+}
+
+.projects .project span {
+	width:100%;
+	display:block;
+	justify-content:center;
+	margin-left:1rem;
+	flex-direction:column;
+}
+
+.projects .project .title {
+	color:#0078ff;
+	font-weight:742;
+}
+
+.projects .project .def {
+	font-size:0.6rem;
+}
+
+.projects .project .img {
+	width:30vw;
+	height:30vw;
+	border:1px solid #fcfcfc;
+	margin:0;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+
+.projects .project i{
+	padding:15vw;
+	color:#0078ff;
+	font-size:1.8rem;
+}
+
+.projects .project.re :is(span) {
+	margin:0;
+	padding-right:0.8rem;
+}
+
+.projects .project.re :is(i) {
+	margin-right:-2rem;
+}
+
+.footer :is(a) {
+	text-decoration:none;
+	margin:0.9rem;
+	color:#0078ff;
+}
+
+.footer :is(.links) {
+	margin:0.9rem 0;
+}
+
+.stat .items {
+	display:flex;
+	gap: 0.5rem;
+	margin:1rem;
+	padding:1rem;
+}
+
+.stat .git {
+	width:50%;
+}
+
+@font-face {
+	font-family:maven;
+	src:url("font.ttf");
+}
+
+@media screen and (max-width: 500px) {
+	.stat .items {
+		flex-direction:column;
+	}
+	
+	.stat .git {
+		width:100%;
+	}
+	
+}
