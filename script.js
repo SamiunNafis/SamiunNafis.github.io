@@ -22,7 +22,7 @@ theme.addEventListener('change', () => {
 })
 
 webvium.addEventListener('click', () => {
-	window.location.href = 'https://github.com/mrepol742/PROJECT-WEBVIUM'
+	window.location.href = 'https://SamiunNafis.github.io/PROJECT-WEBVIUM'
 })
 
 chat.addEventListener('click', () => {
