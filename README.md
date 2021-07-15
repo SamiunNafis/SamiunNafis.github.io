@@ -1,6 +1,6 @@
 <p align="center">
  <img width="100px" src="https://github.com/SamiunNafis/SamiunNafis.github.io/blob/main/images/SamiunNafis.png" align="center" alt="Samiun Nafis" />
- <h2 align="center">SamiunNafis.github.io</h2>
+ <h2 align="center">https://SamiunNafis.github.io</h2>
  <p align="center">My Official Website</p>
 </p>
 
