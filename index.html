@@ -18,9 +18,8 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<!--    <meta name="viewport" content="width=device-width, initial-scale=1">-->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap" rel="stylesheet">
     <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1'/>
@@ -43,12 +42,12 @@
     <link rel="stylesheet" href="css/main.css">
     <link rel="shortcut icon" href="https://SamiunNafis.github.io/favicon.png">
     <link rel="apple-touch-icon" href="https://SamiunNafis.github.io/favicon.png">
-    
-    <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>SamiunNafis | Portfolio</title>
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+	<script src="https://unpkg.com/scrollreveal"></script>
+	<title>SamiunNafis | Portfolio</title>
   </head>
   <body>
 	  
@@ -98,21 +97,20 @@
 	  </div>
 	</nav>
 	
-	<div class="container p-4 intro" id="intro">
-		<h1>Hey there, <span class="wave">👋</span></h1>
-		<h2>I am <span class="span" style="display:inline;" >Samiun Nafis</span></h2>
+	<div class="container p-4 intro item" id="intro">
+		<div id="typed"><h1 id="type"></h1></div>
 		<span>I am a frontend developer with sound of knowledge in Android development.</span>
 		<span>My skills: HTML, CSS, JavaScript, JQuery, React, and Bootstrap.</span>
 	</div>
 	
-	<div class="container p-4 about" id="about">
+	<div class="container p-4 about item" id="about">
 		<h1>About</h1>
 		<img src="favico.png" class="aimg">
 		<span>I'm Samiun Nafis, I'm from Bangladesh. Since 4 years, I’m working as web developer. I have developed many website and also provided my services to college students by getting their projects ready ASAP. As a developer I have been part of some very good web design projects.</span>
 		<span>I'm also learning Back-End Development and looking forward to be a Full Stack Web Developer. Besides, I'm learning Python and Java.</span>
 	</div>
 	
-	<div class="container p-4 projects" id="projects">
+	<div class="container p-4 projects item" id="projects">
 		<h1>Projects</h1>
 		
 		<div class="items">
@@ -120,8 +118,7 @@
 				<img class="img" src="web.webp">
 				<div class="desc">
 					<span class="title">PROJECT WEBVIUM</span>
-					<span class="def">Webvium is a weightless android app that has a size of 600KB. It's Fast, Material Design and Full-Featured Web Browser for Android. And its absolutely free to download and without any ads.
-				</span>
+					<span class="def">Webvium is a weightless android app that has a size of 600KB. It's Fast, Material Design and Full-Featured Web Browser for Android. And its absolutely free to download and without any ads.</span>
 				</div>
 			</div>
 			
@@ -135,15 +132,15 @@
 		</div>
 	</div>
 	
-	<div class="container p-4 stat">
+	<div class="container p-4 stat item">
 		<h1>Git status</h1>
 		<div class="items">
 			<img class="git" src="https://github-readme-stats.vercel.app/api?username=SamiunNafis&include_all_commits=true&custom_title=Github%20Stats&count_private=true&show_icons=true" alt="Github Stats" class="stats">
-			<img class="git" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SamiunNafis&layout=compact&custom_title=Language%20Stats" alt="Language Stats" class="stats">
+		<img class="git" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SamiunNafis&layout=compact&custom_title=Language%20Stats" alt="Language Stats" class="stats">
 		</div>
 	</div>
 	
-	<footer id="footer" class="footer px-4 py-3">
+	<footer id="footer" class="footer px-4 py-3 item">
 		<span>Find me in</span>
 		<div class="links" >
 			<a href="https://www.facebook.com/samiunnafis0"><span class="fa fa-facebook"></span></a>
@@ -156,18 +153,8 @@
 			<span>&copy;2021 Samiun Nafis</span>
 		</div>
 	</footer>
-
-
-    <!-- Optional JavaScript; choose one of the two! -->
-
-    <!-- Option 1: Bootstrap Bundle with Popper -->
+	
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
     <script type="text/javascript" src="script.js"></script>
-<!--    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>-->
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <!--
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
-    -->
 </body>
 </html>
