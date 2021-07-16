@@ -1,13 +1,18 @@
-/*var typedLogo = new Typed('#type', {
-	strings: ['Hey there, <span class="wave"></span>', '<span class="iam" style="display:inline;">I am</span> <span class="span" style="display:inline;">Samiun Nafis</span>'],
-	typeSpeed: 120,
-	backSpeed: 40,
-	backDelay: 600,
-	startDelay: 800,
-	cursorChar: '_',
-	loop: false
-});*/
-
+try {
+	var typedLogo = new Typed('#type', {
+		strings: ['Hey there, <span class="wave"></span>', '<span class="iam" style="display:inline;">I am</span> <span class="span" style="display:inline;">Samiun Nafis</span>'],
+		typeSpeed: 120,
+		backSpeed: 40,
+		backDelay: 600,
+		startDelay: 800,
+		cursorChar: '_',
+		loop: false
+	});
+} catch (e) {
+	typed.innerHTML = '<h1>Hey there, <span class="wave"></span></h1><h2><span class="iam" style="display:inline;">I am</span> <span class="span" style="display:inline;">Samiun Nafis</span></h2>'
+	typed.style.flexDirection = 'column'
+	typed.style.alignItems = 'flex-start'
+}
 let options = {
 	distance: '150%',
 	origin: 'bottom',
