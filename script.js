@@ -1,4 +1,4 @@
-var typedLogo = new Typed('#type', {
+/*var typedLogo = new Typed('#type', {
 	strings: ['Hey there, <span class="wave"></span>', '<span class="iam" style="display:inline;">I am</span> <span class="span" style="display:inline;">Samiun Nafis</span>'],
 	typeSpeed: 120,
 	backSpeed: 40,
@@ -6,7 +6,7 @@ var typedLogo = new Typed('#type', {
 	startDelay: 800,
 	cursorChar: '_',
 	loop: false
-});
+});*/
 
 let options = {
 	distance: '150%',
