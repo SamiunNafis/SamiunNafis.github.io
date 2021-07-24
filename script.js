@@ -13,28 +13,40 @@ try {
 	typed.style.flexDirection = 'column'
 	typed.style.alignItems = 'flex-start'
 }
-let options = {
-	distance: '150%',
-	origin: 'bottom',
-	opacity: null
+
+window.addEventListener('scroll', reveal)
+reveal();
+function reveal() {
+	let items = document.querySelectorAll('.item')
+	for (let i = 0; i < items.length; i++) {
+		let windowHeight = window.innerHeight;
+		let revealTop = items[i].getBoundingClientRect().top;
+		let distance = 50;
+		
+		if (revealTop < windowHeight - distance) {
+			items[i].classList.add('active')
+		} else {
+			items[i].classList.remove('active')
+		}
+	}
 }
 
-ScrollReveal({ reset: false});
-ScrollReveal().reveal('.item', options);
-
 let changeTheme = () => {
+	let im = document.querySelector('.iam') || type
 	if (theme.checked) {
 		document.body.style.background = '#121212'
 		document.body.style.color = '#fff'
 		footer.classList.add('bg-dark')
 		footer.classList.remove('bg-light')
 		themeLabel.innerText = '☀'
+		im.style.color = '#0078ff'
 	} else {
 		document.body.style.background = '#fcfcfc'
 		document.body.style.color = '#000'
 		themeLabel.innerText = '🌙'
 		footer.classList.add('bg-light')
 		footer.classList.remove('bg-dark')
+		im.style.color = '#0078ff'
 	}
 }
 
@@ -52,3 +64,5 @@ webvium.addEventListener('click', () => {
 chat.addEventListener('click', () => {
 	window.location.href = 'https://github.com/SamiunNafis/chat'
 })
+
+show.addEventListener('click', () => window.location.replace(`projects/index.html?theme=${theme.checked}`))
