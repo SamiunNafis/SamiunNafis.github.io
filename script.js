@@ -33,6 +33,8 @@ function reveal() {
 
 let changeTheme = () => {
 	let im = document.querySelector('.iam') || type
+	let img = document.querySelectorAll('.img')
+	
 	if (theme.checked) {
 		document.body.style.background = '#121212'
 		document.body.style.color = '#fff'
@@ -40,6 +42,11 @@ let changeTheme = () => {
 		footer.classList.remove('bg-light')
 		themeLabel.innerText = '☀'
 		im.style.color = '#0078ff'
+		
+		for (let i = 0; i < img.length; i++) {
+			img[i].style.borderColor = '#fcfcfc'
+		}
+		
 	} else {
 		document.body.style.background = '#fcfcfc'
 		document.body.style.color = '#000'
@@ -47,6 +54,10 @@ let changeTheme = () => {
 		footer.classList.add('bg-light')
 		footer.classList.remove('bg-dark')
 		im.style.color = '#0078ff'
+		
+		for (let i = 0; i < img.length; i++) {
+			img[i].style.borderColor = '#333333'
+		}
 	}
 }
 
