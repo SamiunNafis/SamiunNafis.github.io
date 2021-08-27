@@ -7,7 +7,10 @@ body {
 	background:#fcfcfc;
 	transition:0.4s;
 }
-
+.card {
+	background-color:#333;
+	margin-top:1rem;
+}
 .item {
 	opacity:0;
 	transform:translateY(10%);

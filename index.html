@@ -79,7 +79,7 @@
 			</li>
 			<li class="nav-item dropdown">
 				<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-				Social Media
+					Social Media
 				</a>
 				<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
 				<li><a class="dropdown-item" href="https://www.facebook.com/samiunnafis0">Facebook</a></li>
@@ -95,51 +95,72 @@
 		</div>
 	</nav>
 	
-	<div class="container p-4 intro item" id="intro">
-		<div id="typed"><h1 id="type"></h1></div>
-		<span>I am a frontend developer with sound of knowledge in Android development.</span>
-		<span>My skills: HTML, CSS, JavaScript, JQuery, React, and Bootstrap.</span>
-	</div>
-	
-	<div class="container p-4 about item" id="about">
-		<h1>About</h1>
-		<img src="favico.png" class="aimg">
-		<span>I'm Samiun Nafis, I'm from Bangladesh. Since 4 years, I’m working as web developer. I have developed many website and also provided my services to college students by getting their projects ready ASAP. As a developer I have been part of some very good web design projects.</span>
-		<span>I'm also learning Back-End Development and looking forward to be a Full Stack Web Developer. Besides, I'm learning Python and Java.</span>
-	</div>
-	
-	<div class="container p-4 projects item" id="projects">
-		<h1>Projects</h1>
+	<div class="p-4">
 		
-		<div class="items">
-			<div class="p-3 project" id="webvium">
-				<img class="img" src="web.webp">
-				<div class="desc">
-					<span class="title">PROJECT WEBVIUM</span>
-					<span class="def">Project that aim's to bring a full desktop chromium feature's to Android Device's in very low app size, modern material design user interface, secured and fast browsing experience.</span>
+		<div class="container card my-4 p-4 intro item" id="intro">
+			<div class="my-0" id="typed"><h1 id="type"></h1></div>
+			<span>I am a frontend developer with sound of knowledge in Android development.</span>
+			<span>My skills: HTML, CSS, JavaScript, JQuery, React and Bootstrap.</span>
+			
+			<button class="my-2 btn btn-primary view">View Resume</button>
+		</div>
+		
+		<div class="container card p-4 about item" id="about">
+			<h1>About</h1>
+			<img src="favico.png" class="aimg">
+			<span>I'm Samiun Nafis, I'm from Bangladesh. Since 4 years, I’m working as web developer. I have developed many websites and also provided my services to college students by getting their projects ready ASAP. As a developer I have been part of some very good web design projects.</span>
+			<span>I'm also learning Back-End Development and looking forward to be a Full Stack Web Developer. Besides, I've the knowledge of Android app development in Java.</span>
+			
+			<button class="my-2 btn btn-primary view">View CV</button>
+		</div>
+		
+		
+		<div class="container my-3 projects item" id="projects">
+			<h1 class="my-4">Projects</h1>
+			
+			<div class="items">
+				<div class="p-3 project card" id="webvium">
+					<img class="img" src="web.webp">
+					<div class="desc">
+						<span class="title">PROJECT WEBVIUM</span>
+						<span class="def">Project that aim's to bring a full desktop chromium feature's to Android Device's in very low app size, modern material design user interface, secured and fast browsing experience.</span>
+					</div>
+				</div>
+				
+				<div class="p-3 my-2 project card" id="chat">
+					<i class="img fa fa-comments"></i>
+					<div class="desc">
+						<span class="title">Chat</span>
+						<span class="def">A simple single page chat web application made with vanilla Javascript and JQuery.</span>
+					</div>
 				</div>
 			</div>
 			
-			<div class="p-4 project re" id="chat">
-				<div class="desc">
-					<span class="title">Chat</span>
-					<span class="def">A simple chat web application made by Samiun Nafis.</span>
-				</div>
-				<i class="img fa fa-comments"></i>
+			<div class="text-center py-1">
+				<button id="show" class="btn btn-primary show bt">SHOW MORE</button>
+				<a class="btn btn-primary show al" href="projects/index.html">SHOW MORE</a>
 			</div>
 		</div>
 		
-		<div class="text-center py-1">
-			<button id="show" class="show">SHOW MORE</button>
+		
+		<hr class="my-4">
+		
+		
+		<div class="container my-2 card p-4 git item" id="about">
+			<h1>Github</h1>
+			<span>View my developer profile in github.</span>
+			
+			<button class="my-2 btn btn-primary">View Github</button>
 		</div>
-	</div>
-	
-	<div class="container p-4 stat item">
-		<h1>Git status</h1>
-		<div class="items">
-			<img class="git" src="https://github-readme-stats.vercel.app/api?username=SamiunNafis&include_all_commits=true&custom_title=Github%20Stats&count_private=true&show_icons=true" alt="Github Stats" class="stats">
-		<img class="git" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SamiunNafis&layout=compact&custom_title=Language%20Stats" alt="Language Stats" class="stats">
+		
+		<div class="container my-4 stat item">
+			<h1>Git status</h1>
+			<div class="items">
+				<img class="git" src="https://github-readme-stats.vercel.app/api?username=SamiunNafis&include_all_commits=true&custom_title=Github%20Stats&count_private=true&show_icons=true" alt="Github Stats" class="stats">
+				<img class="git" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SamiunNafis&layout=compact&custom_title=Language%20Stats" alt="Language Stats" class="stats">
+			</div>
 		</div>
+		
 	</div>
 	
 	<footer id="footer" class="footer px-4 py-3 item">
@@ -158,5 +179,24 @@
 	
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
 	<script type="text/javascript" src="script.js"></script>
+	<noscript>
+		<style type="text/css">
+			.item {
+				opacity:1;
+				transform:translateY(0);
+			}
+			
+			.card {
+				background-color:#fcfcfc;
+			}
+			
+			.bt, .view {
+				display:none;
+			}
+			.al {
+				display:block;
+			}
+		</style>
+	</noscript>
 </body>
 </html>

@@ -34,7 +34,7 @@
 		<h1>Projects</h1>
 		
 		<div class="items">
-			<div class="p-3 project item" id="webvium">
+			<div class="p-3 project item card" id="webvium">
 				<img class="img" src="../web.webp">
 				<div class="desc">
 					<span class="title">PROJECT WEBVIUM</span>
@@ -42,7 +42,7 @@
 				</div>
 			</div>
 			
-			<div class="p-4 project item" id="chat">
+			<div class="p-4 project item card" id="chat">
 				<i class="img fa fa-comments"></i>
 				<div class="desc">
 					<span class="title">Chat</span>
@@ -50,11 +50,11 @@
 				</div>
 			</div>
 			
-			<div class="p-4 project item" id="insight">
+			<div class="p-4 project item card" id="insight">
 				<i class="img fa fa-cloud"></i>
 				<div class="desc">
-					<span class="title item">Insight</span>
-					<span class="def item">A Weather report of the planet Mars made with NASA's API. As more data from a particular sol is downlinked from the spacecraft (sometimes several days later), these values are recalculated, and consequently may change as more data is received on Earth.</span>
+					<span class="title">Insight</span>
+					<span class="def">A Weather report of the planet Mars made with NASA's API. As more data from a particular sol is downlinked from the spacecraft (sometimes several days later), these values are recalculated, and consequently may change as more data is received on Earth.</span>
 				</div>
 			</div>
 		</div>
@@ -63,5 +63,18 @@
 	</div>
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
 	<script type="text/javascript" src="script.js"></script>
+	
+	<noscript>
+		<style type="text/css">
+			.item {
+				opacity:1;
+				transform:translateY(0);
+			}
+			
+			.card {
+				background-color:#fcfcfc;
+			}
+		</style>
+	</noscript>
 </body>
 </html>

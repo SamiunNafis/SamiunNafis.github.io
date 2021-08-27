@@ -1,6 +1,6 @@
 try {
 	var typedLogo = new Typed('#type', {
-		strings: ['Hey there, <span class="wave"></span>', '<span class="iam" style="display:inline;">I am</span> <span class="span" style="display:inline;">Samiun Nafis</span>'],
+		strings: ['Hey there, <span class="wave"></span>', '<span class="iam" style="display:inline;">I am</span>','<span class="span" style="display:inline;">Samiun Nafis</span>'],
 		typeSpeed: 120,
 		backSpeed: 40,
 		backDelay: 600,
@@ -34,6 +34,7 @@ function reveal() {
 let changeTheme = () => {
 	let im = document.querySelector('.iam') || type
 	let img = document.querySelectorAll('.img')
+	let card = document.querySelectorAll('.card')
 	
 	if (theme.checked) {
 		document.body.style.background = '#121212'
@@ -47,8 +48,11 @@ let changeTheme = () => {
 			img[i].style.borderColor = '#fcfcfc'
 		}
 		
+		for (let i = 0; i < card.length; i++) {
+			card[i].style.background = '#333333'
+		}
 	} else {
-		document.body.style.background = '#fcfcfc'
+		document.body.style.background = '#eee'
 		document.body.style.color = '#000'
 		themeLabel.innerText = '🌙'
 		footer.classList.add('bg-light')
@@ -57,6 +61,10 @@ let changeTheme = () => {
 		
 		for (let i = 0; i < img.length; i++) {
 			img[i].style.borderColor = '#333333'
+		}
+		
+		for (let i = 0; i < card.length; i++) {
+			card[i].style.background = '#fcfcfc'
 		}
 	}
 }
