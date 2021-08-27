@@ -147,10 +147,10 @@ h1, h2>span {
 	object-fit:contain;
 }
 
-.projects .project i{
+.projects .project i {
 	padding:15vw;
 	color:#0078ff;
-	font-size:1.8rem;
+	font-size:calc(30vw + 1rem);
 }
 
 .projects .project.re :is(span) {
