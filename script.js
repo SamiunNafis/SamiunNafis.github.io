@@ -84,4 +84,8 @@ chat.addEventListener('click', () => {
 	window.location.href = 'https://github.com/SamiunNafis/chat'
 })
 
+vgit.addEventListener('click', () => {
+	window.location.href = 'https://github.com/SamiunNafis/'
+})
+
 show.addEventListener('click', () => window.location.replace(`projects/index.html?theme=${theme.checked}`))
