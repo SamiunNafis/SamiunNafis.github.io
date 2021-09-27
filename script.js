@@ -1,5 +1,4 @@
 /*
- *
  * Copyright (c) 2021 Samiun Nafis (SamiunNafis.github.io). All rights reserved.
  *
  * License under the GNU General Public License, Version 3.0 (the "License");
