@@ -104,7 +104,7 @@ theme.addEventListener('change', () => {
 	changeTheme()
 })
 
-webvium.addEventListener('click', () => window.location.href = 'https://SamiunNafis.github.io/PROJECT-WEBVIUM')
+webvium.addEventListener('click', () => window.location.href = 'https://mrepol742.github.io/PROJECT-WEBVIUM')
 chat.addEventListener('click', () => window.location.href = 'https://github.com/SamiunNafis/chat')
 vgit.addEventListener('click', () => window.location.href = 'https://github.com/SamiunNafis/')
 vrepo.addEventListener('click', () => window.location.href = 'https://github.com/SamiunNafis?tab=repositories')
