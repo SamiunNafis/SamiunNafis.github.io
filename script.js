@@ -35,6 +35,8 @@ let changeTheme = () => {
 	let im = document.querySelector('.iam') || type
 	let img = document.querySelectorAll('.img')
 	let card = document.querySelectorAll('.card')
+	let name = document.querySelector('.name')
+	let nav = document.querySelector('.navbar')
 	
 	if (theme.checked) {
 		document.body.style.background = '#121212'
@@ -43,6 +45,13 @@ let changeTheme = () => {
 		footer.classList.remove('bg-light')
 		themeLabel.innerText = '☀'
 		im.style.color = '#0078ff'
+		name.style.color = '#ffffff'
+		name.classList.remove('bg-light')
+		name.classList.add('bg-dark')
+		nav.classList.remove('navbar-light')
+		nav.classList.remove('bg-light')
+		nav.classList.add('navbar-dark')
+		nav.classList.add('bg-dark')
 		
 		for (let i = 0; i < img.length; i++) {
 			img[i].style.borderColor = '#fcfcfc'
@@ -58,6 +67,13 @@ let changeTheme = () => {
 		footer.classList.add('bg-light')
 		footer.classList.remove('bg-dark')
 		im.style.color = '#0078ff'
+		name.style.color = '#000000'
+		name.classList.remove('bg-dark')
+		name.classList.add('bg-light')
+		nav.classList.remove('navbar-dark')
+		nav.classList.remove('bg-dark')
+		nav.classList.add('navbar-light')
+		nav.classList.add('bg-light')
 		
 		for (let i = 0; i < img.length; i++) {
 			img[i].style.borderColor = '#333333'
@@ -69,23 +85,13 @@ let changeTheme = () => {
 	}
 }
 
-theme.checked = true;
-changeTheme()
-
 theme.addEventListener('change', () => {
 	changeTheme()
 })
 
-webvium.addEventListener('click', () => {
-	window.location.href = 'https://SamiunNafis.github.io/PROJECT-WEBVIUM'
-})
-
-chat.addEventListener('click', () => {
-	window.location.href = 'https://github.com/SamiunNafis/chat'
-})
-
-vgit.addEventListener('click', () => {
-	window.location.href = 'https://github.com/SamiunNafis/'
-})
-
+webvium.addEventListener('click', () => window.location.href = 'https://SamiunNafis.github.io/PROJECT-WEBVIUM')
+chat.addEventListener('click', () => window.location.href = 'https://github.com/SamiunNafis/chat')
+vgit.addEventListener('click', () => window.location.href = 'https://github.com/SamiunNafis/')
+vrepo.addEventListener('click', () => window.location.href = 'https://github.com/SamiunNafis?tab=repositories')
 show.addEventListener('click', () => window.location.replace(`projects/index.html?theme=${theme.checked}`))
+dont.addEventListener('click', () => window.location.href = atob('aHR0cHM6Ly95b3V0dS5iZS9kUXc0dzlXZ1hjUQ=='))

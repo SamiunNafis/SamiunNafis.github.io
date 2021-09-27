@@ -50,7 +50,7 @@
 </head>
 <body>
 		
-	<div class="name bg-dark">
+	<div class="name bg-light">
 		<span>SamiunNafis</span>
 		<div class="form-check form-switch">
 			<input class="form-check-input checkbox" type="checkbox" id="theme">
@@ -58,7 +58,7 @@
 		</div>
 	</div>
 	
-	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
 		<div class="container-fluid">
 		<a class="navbar-brand" href="#"><img src="favico.png" class="nav-icon"></a>
 		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -147,12 +147,15 @@
 		<hr class="my-4">
 		
 		
-		<div class="container my-2 card p-4 git item" id="about">
+		<div class="container my-2 card p-4 gitpro item" id="about">
 			<h1>Github</h1>
 			<span>View my developer profile in github.</span>
 			
-			<button id="vgit" class="my-2 btn btn-primary bt">View Github</button>
-				<a class="btn btn-primary show al" href="https://github.com/SamiunNafis">View Github</a>
+			<div class="btns">
+				<button id="vgit" class="my-2 btn btn-primary bt">Profile</button>
+				<button id="vrepo" class="my-2 btn btn-primary bt">Repositories</button>
+			</div>
+			<a class="btn btn-primary show al" href="https://github.com/SamiunNafis">View Github</a>
 		</div>
 		
 		<div class="container my-4 stat item">
@@ -163,6 +166,13 @@
 			</div>
 		</div>
 		
+		
+		<div class="container my-2 p-4 card item dclick bt">
+			<h1 class="text-danger">Danger</h1>
+			<span>No matter what happens in your life, just do not click the button.</span>
+			
+			<button id="dont" class="my-2 btn btn-danger bt">DO NOT CLICK</button>
+		</div>
 	</div>
 	
 	<footer id="footer" class="footer px-4 py-3 item">
