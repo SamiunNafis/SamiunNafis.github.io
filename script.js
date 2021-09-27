@@ -1,3 +1,19 @@
+/*
+ *
+ * Copyright (c) 2021 Samiun Nafis (SamiunNafis.github.io). All rights reserved.
+ *
+ * License under the GNU General Public License, Version 3.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *	 https://www.gnu.org/licenses/gpl-3.0.en.html
+ *
+ * Unless required by the applicable law or agreed in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
 try {
 	var typedLogo = new Typed('#type', {
 		strings: ['Hey there, <span class="wave"></span>', '<span class="iam" style="display:inline;">I am</span>','<span class="span" style="display:inline;">Samiun Nafis</span>'],

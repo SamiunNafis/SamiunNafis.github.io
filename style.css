@@ -7,7 +7,7 @@
 
 body {
 	transition:0.4s;
-	background:#fcfcfc;
+	background:#eee;
 }
 
 .al, .view {
@@ -167,6 +167,10 @@ h1, h2>span {
 }
 .projects .show:active {
 	color:hsl(212, 100%, 30%);
+}
+
+footer {
+	background:#fff;
 }
 
 .footer :is(a) {
