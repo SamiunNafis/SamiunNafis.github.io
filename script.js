@@ -109,5 +109,5 @@ chat.addEventListener('click', () => window.location.href = 'https://github.com/
 vgit.addEventListener('click', () => window.location.href = 'https://github.com/SamiunNafis/')
 vrepo.addEventListener('click', () => window.location.href = 'https://github.com/SamiunNafis?tab=repositories')
 show.addEventListener('click', () => window.location.replace(`projects/index.html?theme=${theme.checked}`))
-dont.addEventListener('click', () => window.location.href = atob('aHR0cHM6Ly95b3V0dS5iZS9kUXc0dzlXZ1hjUQ=='))
+//dont.addEventListener('click', () => window.location.href = atob('aHR0cHM6Ly95b3V0dS5iZS9kUXc0dzlXZ1hjUQ=='))
 mj.addEventListener('click', () => window.location.href = 'https://mrepol742.github.io/')
