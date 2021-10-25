@@ -56,7 +56,7 @@ img {
 	padding:1rem 0.7rem;
 	font-weight:500;
 	font-size:1.3rem;
-	display:flex;
+	display:none;
 	justify-content:space-between;
 }
 
