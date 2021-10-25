@@ -109,11 +109,21 @@ h1, h2>span {
 .projects .project {
 	display:flex;
 	flex-direction:column;
+	width:auto;
+	flex-shrink:0;
+	background:#eee;
+	margin-left:0.5rem;
+}
+
+.projects .project:nth-child(1) {
+	margin-left:0;
 }
 
 .projects .items {
 	display:flex;
-	flex-direction:column;
+	flex-direction:row;
+	overflow-x:scroll;
+	flex-wrap:nowrap;
 }
 
 .projects .project span {
@@ -130,6 +140,8 @@ h1, h2>span {
 
 .projects .project .def {
 	font-size:0.8rem;
+	line-break:break-line;
+	width:70vw;
 }
 
 .projects .project .desc {
@@ -137,9 +149,8 @@ h1, h2>span {
 	margin-top:1rem;
 }
 .projects .project .img {
-	width:100%;
+	width: min(50px, 200px);
 	height:auto;
-	border:1px solid #fcfcfc;
 	margin:0;
 	display:flex;
 	justify-content:center;
@@ -150,9 +161,9 @@ h1, h2>span {
 .projects .project i {
 	padding:15vw;
 	color:#0078ff;
-	font-size:calc(30vw + 1rem);
+	font-size:min(calc(30vw + 1rem), 3rem);
 }
-
+/*
 .projects .project.re :is(span) {
 	margin:0;
 	padding-right:0.8rem;
@@ -160,10 +171,10 @@ h1, h2>span {
 
 .projects .project.re :is(i) {
 	margin-right:-2rem;
-}
+}*/
 
 .projects  .show {
-	width:100%;
+	width: min(100%, 150px);
 }
 .projects .show:active {
 	color:hsl(212, 100%, 30%);
@@ -195,6 +206,29 @@ footer {
 	margin:1.5rem 0;
 }
 
+.featured {
+	display:flex;
+	flex-direction:column;
+}
+
+.featured .fitem {
+	display:flex;
+	flex-direction:row;
+}
+
+.featured :is(.desc, span) {
+	display:block;
+}
+
+.featured img {
+	width: min(50%, 200px);
+	height:50%;
+}
+
+.featured .title {
+	font-size:1.5rem;
+}
+
 @font-face {
 	font-family:maven;
 	src:url("font.ttf");
@@ -207,6 +241,10 @@ footer {
 
 	.stat .git {
 		width:100%;
+	}
+	
+	.featured .fitem {
+		flex-direction:column;
 	}
 
 }
