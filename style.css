@@ -109,7 +109,7 @@ h1, h2>span {
 .projects .project {
 	display:flex;
 	flex-direction:column;
-	width:auto;
+	width:350px;
 	flex-shrink:0;
 	background:#eee;
 	margin-left:0.5rem;
@@ -140,8 +140,7 @@ h1, h2>span {
 
 .projects .project .def {
 	font-size:0.8rem;
-	line-break:break-line;
-	width:70vw;
+	word-break:break-all;
 }
 
 .projects .project .desc {
