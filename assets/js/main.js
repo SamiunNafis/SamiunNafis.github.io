@@ -151,6 +151,7 @@
 
   let preloader = select('#preloader');
   preloader.remove()
-  
+  const observer = lozad()
+  observer.observe()
   mj.addEventListener('click', () => window.location = 'https://mrepol742.github.io/')
 })()
