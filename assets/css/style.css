@@ -726,6 +726,7 @@ a:hover {
   margin-bottom: 3rem;
   text-align: center;
 /*  height:350px;*/
+  height:auto;
 }
 .service-box:hover .ico-circle {
   transition: all 500ms ease;
