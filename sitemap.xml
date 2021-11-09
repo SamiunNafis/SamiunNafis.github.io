@@ -1,16 +1,25 @@
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>https://samiunnafis.github.io/</loc>
+<changefreq>daily</changefreq>
 <lastmod>2021-11-06T06:29:17+00:00</lastmod>
 <priority>1.00</priority>
 </url>
 <url>
-<loc>https://samiunnafis.github.io/index.html</loc>
+<loc>https://samiunnafis.github.io/portfolio-details.html</loc>
+<changefreq>daily</changefreq>
 <lastmod>2021-11-06T06:29:17+00:00</lastmod>
 <priority>0.80</priority>
 </url>
 <url>
-<loc>https://samiunnafis.github.io/portfolio-details.html</loc>
+<loc>https://samiunnafis.netlify.app/</loc>
+<changefreq>daily</changefreq>
+<lastmod>2021-11-06T06:29:17+00:00</lastmod>
+<priority>1.00</priority>
+</url>
+<url>
+<loc>https://samiunnafis.netlify.app/portfolio-details.html</loc>
+<changefreq>daily</changefreq>
 <lastmod>2021-11-06T06:29:17+00:00</lastmod>
 <priority>0.80</priority>
 </url>
