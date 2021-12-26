@@ -878,24 +878,6 @@ a:hover {
 .portfolio-details .portfolio-description p {
   padding: 0;
 }
-
-.testimonial-box {
-  color: #fff;
-  text-align: center;
-} 
-.testimonial-box .author-test {
-  margin-top: 1rem;
-}
-.testimonial-box .author-test img {
-  margin: 0 auto;
-  width:150px;
-}
-
-.testimonial-box {
-/*	background-image:url(assets/img/overlay-bg.jpg);*/
-	color:black;
-}
-
 .overlay-mf {
 	background:#fff;
 }
@@ -1047,7 +1029,7 @@ footer .copyright {
   margin-bottom: 0.3rem;
   text-align:center;
 }
-
+ 
 @font-face {
 	font-family:Maven;
 	src:url("../font/font.ttf");
