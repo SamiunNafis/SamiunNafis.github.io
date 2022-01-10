@@ -631,6 +631,41 @@ a:hover {
   display: block;
 }
 
+.dochero {
+  height: 40vh;
+  position: relative;
+  color: #fff;
+}
+.dochero .dochero-content {
+  text-align: center;
+  position: absolute;
+}
+.dochero .overlay-itro {
+  background-color: #0078ff;/*rgba(0, 0, 0, 0.6);*/
+  position: absolute;
+  top: 0;
+  left: 0px;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0.9;
+}
+.dochero .dochero-title {
+  color: #fff;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+@media (min-width: 768px) {
+  .dochero .dochero-title {
+    font-size: 4.5rem;
+  }
+}
+.dochero .dochero-subtitle {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+
 .hero {
   height: 100vh;
   position: relative;
