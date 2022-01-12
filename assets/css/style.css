@@ -760,8 +760,8 @@ a:hover {
   border-radius: 1rem;
   margin-bottom: 3rem;
   text-align: center;
-/*  height:350px;*/
-  height:auto;
+  max-height:400px;
+  min-height:390px;
 }
 .service-box:hover .ico-circle {
   transition: all 500ms ease;
@@ -834,6 +834,7 @@ a:hover {
 }
 .work-img img {
   transition: all 1s;
+  aspect-ratio: 16 / 9;
 }
 
 .work-content {
@@ -845,6 +846,9 @@ a:hover {
 }
 .work-content .w-more .w-ctegory {
   color: #0078ff;
+}
+.work-content .w-more .w-desc {
+  color: #4e4e4e;
 }
 .work-content .w-like {
   font-size: 2.5rem;
