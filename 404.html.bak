@@ -1,6 +1,6 @@
 <!--
   ~
-  ~ Copyright (c) 2022 Melvin Jones Repol (mrepol742.github.io). All rights reserved.
+  ~ Copyright (c) 2021 Melvin Jones Repol (mrepol742.github.io). All rights reserved.
   ~
   ~ License under the GNU General Public License, Version 3.0 (the "License");
   ~ you may not use this file except in compliance with the License.
@@ -24,6 +24,7 @@
     <meta property="og:type" content="website">
     <meta name="theme-color" content="#4285f4">
     <meta charset="utf-8">
+    v
     <meta content="IE=Edge" http-equiv="X-UA-Compatible">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <meta name="description" content="You spell it wrong.">
@@ -55,7 +56,6 @@
     	border-radius:5px;
     	color:#0078ff;
     	transition:0.6s;
-    	user-select: none;
     }
     button:active {
     	background:#0079ff;
