@@ -154,5 +154,4 @@
   const observer = lozad()
   observer.observe()
   email.textContent = atob('bHVlYTA5OUBnbWFpbC5jb20=')
-  mj.addEventListener('click', () => window.location = 'https://mrepol742.github.io/')
 })()
