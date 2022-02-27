@@ -128,7 +128,15 @@
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
   <script src="assets/vendor/typed.js/typed.min.js"></script>
   <script src="assets/js/main.js"></script>
-
+  <script>
+    if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('sw.js').then((reg) => {
+            console.log('[ServiceWorker] Registered');
+        }).catch((err) => {
+            console.error('[ServiceWorker] failed: ', err)
+        });
+    }
+  </script>
 </body>
 
 </html>
