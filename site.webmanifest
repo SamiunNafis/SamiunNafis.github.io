@@ -1,17 +1,17 @@
 {
-  "name": "Webvium",
-  "short_name": "Webvium",
-  "description": "Lightweight, Fast, Material and Full-Featured Android Web Browser.",
+  "name": "Samiun Nafis",
+  "short_name": "Samiun Nafis",
+  "description": "Hey there, I am Samiun Nafis. A frontend developer",
   "dir": "ltr",
   "lang": "en-US",
   "icons": [
     {
-      "src": "/assets/img/webvium-icon.png",
+      "src": "assets/img/SamiunNafis.png",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "/assets/img/webvium-icon-high.png",
+      "src": "assets/img/SamiunNafis.png",
       "sizes": "512x512",
       "type": "image/png"
     }
@@ -19,16 +19,22 @@
   "theme_color": "#ffffff",
   "background_color": "#ffffff",
   "display": "standalone",
-  "start_url": ".",
+  "start_url": "../index.html",
+  "scope": "/",
+  "orientation": "portrait",
   "prefer_related_applications": true,
   "related_applications": [
     {
       "platform": "web",
-      "url": "https://mrepol742.github.io/webvium"
+      "url": "https://mrepol742.github.io/webvium?utm_source=webmanifest"
     },
     {
-      "platform": "play",
-      "url": "https://play.google.com/store/apps/details?id=com.mrepol742.webvium&utm_source=webmanifest"
+      "platform": "web",
+      "url": "https://mrepol742.github.io/webviumdev?utm_source=webmanifest"
+    },
+    {
+      "platform": "web",
+      "url": "https://mrepol742.github.io/webviumvpn?utm_source=webmanifest"
     }
   ]
 }
