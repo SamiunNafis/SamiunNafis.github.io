@@ -41,13 +41,16 @@ a:hover {
   color: #4e4e4e;
 }
 
+
 .box-shadow, .card-blog, .work-box, .service-box, .paralax-mf {
-  box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 5em rgba(0, 0, 0, .1);
+  transition: box-shadow .3s;
 }
 
 .box-shadow-a, .button:hover {
   text-decoration: none;
-  box-shadow: 0 0 0 4px #cde1f8;
+  box-shadow: 0 0 5em rgba(0, 0, 0, .1);
+  transition: box-shadow .3s;
 }
 
 .display-5 {
@@ -70,6 +73,7 @@ a:hover {
 }
 
 .bg-image {
+  background-image: url("/assets/img/code.gif");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -185,7 +189,8 @@ a:hover {
   background-color: #fff;
   margin-bottom: 3rem;
   z-index: 2;
-  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 5em rgba(0, 0, 0, .1);
+  transition: box-shadow .3s;
 }
 @media (min-width: 768px) {
   .box-shadow-full {
@@ -207,14 +212,14 @@ a:hover {
   border-radius: 50%;
   line-height: 1.6;
   margin: 0 15px 0 0;
-  box-shadow: 0 0 0 3px #0078ff;
-  transition: all 500ms ease;
+  box-shadow: 0 0 5em rgba(0, 0, 0, .1);
+  transition: box-shadow .3s;
 }
 .socials .ico-circle:hover {
   background-color: #0078ff;
   color: #fff;
-  box-shadow: 0 0 0 3px #cde1f8;
-  transition: all 500ms ease;
+  box-shadow: 0 0 5em rgba(0, 0, 0, .1);
+  transition: box-shadow .3s;
 }
 
 
@@ -240,7 +245,8 @@ a:hover {
   line-height: 1.55;
   margin: 0 auto;
   text-align: center;
-  box-shadow: 0 0 0 10px #0078ff;
+  box-shadow: 0 0 5em rgba(0, 0, 0, .1);
+  transition: box-shadow .3s;
   display: block;
 }
 
