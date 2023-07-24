@@ -1,7 +1,7 @@
 {
   "name": "Samiun Nafis",
   "short_name": "Samiun Nafis",
-  "description": "Hey there, I am Samiun Nafis. A frontend developer",
+  "description": "I have developed many websites and also provided my services to college students by getting their projects ready ASAP.",
   "dir": "ltr",
   "lang": "en-US",
   "icons": [
@@ -21,20 +21,5 @@
   "display": "standalone",
   "start_url": "../index.html",
   "scope": "/",
-  "orientation": "portrait",
-  "prefer_related_applications": true,
-  "related_applications": [
-    {
-      "platform": "web",
-      "url": "https://mrepol742.github.io/webvium?utm_source=webmanifest"
-    },
-    {
-      "platform": "web",
-      "url": "https://mrepol742.github.io/webviumdev?utm_source=webmanifest"
-    },
-    {
-      "platform": "web",
-      "url": "https://mrepol742.github.io/webviumvpn?utm_source=webmanifest"
-    }
-  ]
+  "orientation": "portrait"
 }
