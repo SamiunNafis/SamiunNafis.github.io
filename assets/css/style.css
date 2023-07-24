@@ -7,6 +7,16 @@ body {
   color: #4e4e4e;
   font-family:Maven;
 }
+.burn-holder {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.burnt {
+    width: 70%;
+    max-width: 300px;
+    height: auto;
+}
 
 h1, h2, h3, h4, h5, h6 {
   color: #1e1e1e;
