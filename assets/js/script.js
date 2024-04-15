@@ -50,8 +50,8 @@ for (let i = 0; i < testimonialsItem.length; i++) {
 }
 
 // add click event to modal close button
-modalCloseBtn.addEventListener("click", testimonialsModalFunc);
-overlay.addEventListener("click", testimonialsModalFunc);
+// modalCloseBtn.addEventListener("click", testimonialsModalFunc);
+// overlay.addEventListener("click", testimonialsModalFunc);
 
 
 
@@ -133,6 +133,13 @@ for (let i = 0; i < formInputs.length; i++) {
 
   });
 }
+
+form.addEventListener("submit", function (e) {
+  e.preventDefault();
+  alert("This button is just a placeholder, it doesn't do anything");
+  form.reset();
+  formBtn.setAttribute("disabled", "");
+});
 
 
 
