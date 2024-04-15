@@ -1,19 +1,56 @@
-<div align="center">
 
-# vCard - Personal portfolio
+```
+                             .-----.
+                            /7  .  (
+                           /   .-.  \
+                          /   /   \  \
+                         / `  )   (   )
+                        / `   )   ).  \
+                      .'  _.   \_/  . |
+     .--.           .' _.' )`.        |
+    (    `---...._.'   `---.'_)    ..  \
+     \            `----....___    `. \  |
+      `.           _ ----- _   `._  )/  |
+        `.       /"  \   /"  \`.  `._   |
+          `.    ((O)` ) ((O)` ) `.   `._\
+            `-- '`---'   `---' )  `.    `-.
+               /                  ` \      `-.
+             .'                      `.       `.
+            /                     `  ` `.       `-.
+     .--.   \ ===._____.======. `    `   `. .___.--`     .''''.
+    ' .` `-. `.                )`. `   ` ` \          .' . '  8)
+   (8  .  ` `-.`.               ( .  ` `  .`\      .'  '    ' /
+    \  `. `    `-.               ) ` .   ` ` \  .'   ' .  '  /
+     \ ` `.  ` . \`.    .--.     |  ` ) `   .``/   '  // .  /
+      `.  ``. .   \ \   .-- `.  (  ` /_   ` . / ' .  '/   .'
+        `. ` \  `  \ \  '-.   `-'  .'  `-.  `   .  .'/  .'
+          \ `.`.  ` \ \    ) /`._.`       `.  ` .  .'  /
+    LGB    |  `.`. . \ \  (.'               `.   .'  .'
+        __/  .. \ \ ` ) \                     \.' .. \__
+ .-._.-'     '"  ) .-'   `.                   (  '"     `-._.--.
+(_________.-====' / .' /\_)`--..__________..-- `====-. _________)
+                 (.'(.'
 
-vCard is a fully responsive personal portfolio website, responsive for all devices, built using HTML, CSS, and JavaScript.
+```
 
- <a href="https://codingstella.github.io/vCard-personal-portfolio/"><strong>➥ Live Demo</strong></a> 
- 
- </div>
- 
-## Demo
+[comment]: <> (Art by lgbeard)
 
-![vCard Desktop Demo](./website-demo-image/desktop.png "Desktop Demo")
-![vCard Mobile Demo](./website-demo-image/mobile.png "Mobile Demo")
+# Samiun Nafis
 
+## Web Developer | Bangladesh
 
-## License
+### About Me
+I'm Samiun Nafis, a passionate web developer based in Bangladesh. With a strong background in web design and development, I've had the privilege of working on various projects, including websites and applications. My goal is to create elegant, user-friendly, and efficient solutions that meet the needs of my clients.
 
-This project is **free to use** and does not contains any license.
+### Services Offered
+- **Website Development**: I specialize in creating responsive and dynamic websites using modern technologies such as HTML, CSS, JavaScript, and frameworks like React.
+- **Project Assistance**: As a service provider, I've assisted college students by helping them complete their projects promptly. Whether it's coding, debugging, or optimizing, I'm here to support your academic endeavors.
+- **Web Design**: I've been part of some exciting web design projects, ensuring visually appealing layouts, intuitive navigation, and seamless user experiences.
+
+### Contact
+Feel free to reach out if you need assistance with your web development projects or have any inquiries. Let's create something amazing together!
+
+- Email: luea099@gmail.com
+- LinkedIn: https://linkedin.com/in/SamiunNafis
+
+---
